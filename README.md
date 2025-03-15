@@ -15,30 +15,27 @@ pip install pandas seaborn scikit-learn matplotlib
 O notebook `NeuralNetwork.ipynb` está dividido nas seguintes seções:
 
 ### 1. **Importação das Bibliotecas**
-
-- Importação de pacotes essenciais para manipulação de dados (`pandas`, `seaborn`), normalização (`StandardScaler`), separação dos dados (`train_test_split`) e modelos (`MLPClassifier`, `MLPRegressor`).
+   - Importação de pacotes essenciais para manipulação de dados (`pandas`, `seaborn`), normalização (`StandardScaler`), separação dos dados (`train_test_split`) e modelos (`MLPClassifier`, `MLPRegressor`).
 
 ### 2. **Classificação com o dataset Iris**
-
-- Carregamento do dataset Iris.
-- Separação dos dados em treino e teste.
-- Padronização dos dados com `StandardScaler`.
-- Treinamento de um `MLPClassifier`.
-- Avaliação do modelo utilizando `accuracy_score` e matriz de confusão.
+   - Carregamento do dataset Iris.
+   - Separação dos dados em treino e teste.
+   - Padronização dos dados com `StandardScaler`.
+   - Treinamento de um `MLPClassifier`.
+   - Avaliação do modelo utilizando `accuracy_score` e matriz de confusão.
 
 ### 3. **Regressão com Redes Neurais**
-
-- Definição de um problema de regressão (dataset a ser determinado).
-- Pré-processamento dos dados.
-- Treinamento de um `MLPRegressor`.
-- Avaliação utilizando `mean_squared_error` e `mean_absolute_error`.
+   - Definição de um problema de regressão (dataset a ser determinado).
+   - Pré-processamento dos dados.
+   - Treinamento de um `MLPRegressor`.
+   - Avaliação utilizando `mean_squared_error` e `mean_absolute_error`.
 
 ## Como Executar o Projeto
 
 1. **Clone ou baixe o repositório**
    ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd <NOME_DO_REPOSITORIO>
+   git clone https://github.com/RaphaelRPapa/Redes-Neurais-com-Scikit-Learn
+   cd Redes-Neurais-com-Scikit-Learn
    ```
 2. **Instale os requisitos**
    ```bash
@@ -48,7 +45,7 @@ O notebook `NeuralNetwork.ipynb` está dividido nas seguintes seções:
    ```bash
    jupyter notebook
    ```
-4. \*\*Abra e execute o notebook \*\*\`\`
+4. **Abra e execute o notebook `NeuralNetwork.ipynb`**
 
 ## Resultados Esperados
 
@@ -61,4 +58,3 @@ Se desejar contribuir, sinta-se à vontade para abrir uma issue ou um pull reque
 ## Licença
 
 Este projeto é disponibilizado sob a licença MIT.
-
